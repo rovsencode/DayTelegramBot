@@ -32,7 +32,7 @@ def get_today_task():
 async def send_daily_task():
     while True:
         now = datetime.now(baku_tz)
-        if now.hour == 14:  # 10:00-da göndər
+        if now.hour == 14 and now.minute==0:  # 10:00-da göndər
             message = get_today_task()
             await bot.send_message(chat_id=CHAT_ID, text=message)
         
