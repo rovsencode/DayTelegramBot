@@ -9,7 +9,7 @@ baku_tz = pytz.timezone("Asia/Baku")
 
 # 🔹 Telegram Bot Məlumatları
 TOKEN = "7794374904:AAE8SLnOpyl1unO-1w8OXrLJETB4aAN8b0E"
-CHAT_ID = "7254836564"
+CHAT_ID = "7078657063"
 
 bot = telegram.Bot(token=TOKEN)
 
